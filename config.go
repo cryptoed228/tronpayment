@@ -17,7 +17,7 @@ type Config struct {
 	Confirmations  int
 }
 
-// DefaultConfig returns a Config with sensible defaults for mainnet.
+// DefaultConfig returns a Config with sensible defaults for mainnet
 func DefaultConfig(receiveAddress string, apiKeys ...string) Config {
 	return Config{
 		Network:        Mainnet,
